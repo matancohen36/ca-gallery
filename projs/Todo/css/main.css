@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: lightblue;
+    font-size: 2em;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    background-color: rgb(145, 255, 218);
+    flex-grow :1;
+    text-align: center;
+}
+
+
+.filter-container {
+    background-color: lightskyblue;
+    padding: 10px;
+    flex-grow :1;
+    align-items: center;
+}
+
+.filter-container select {
+    font-size: 1em;
+}
+
+.new-todo-txt {
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.new-todo-txt:focus {
+    background-color: lightsteelblue;
+    transition: .5s;
+}
+
+.btn {
+    font-size: 1.1em;
+    border:0;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: magenta;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-stat {
+    background-color: lightgray;
+    text-align: center;
+    flex-grow :1;
+
+}
+
+.todo-stat span {
+    color: purple;
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    flex-grow :1;
+
+}
+
+.todo-list span {
+    text-decoration: underline;
+    font-size: 0.4em;
+}
+
+.sort-container {
+    background-color: lightcyan;
+    padding: 10px;
+    flex-grow :1;
+} 
+.sort-container select {
+    font-size: 1em; 
+    margin : 5px;
+} 
+
+
+.adding-todo{
+    background-color: lightseagreen;
+    flex-grow :1;
+}
+
+.adding-todo select {
+    margin : 5px;
+}

@@ -1,6 +1,6 @@
 console.log('Starting up');
 
-function renderPortfilo (){
+function renderPortfilo() {
     var projs = getProjs()
     var strHtmls = projs.map(function (proj) {
         return `
@@ -24,10 +24,10 @@ function renderPortfilo (){
 }
 
 
-function renderModal(id){
+function renderModal(id) {
     var proj = getProjById(id)
     var strHtml =
-    `<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        `<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -48,6 +48,9 @@ function renderModal(id){
                   <li>Client: Threads</li>
                   <li>Category: ${proj.labels}</li>
                 </ul>
+                <button onclick="window.location.href='${proj.url}'" class="btn btn-danger" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Link Project</button>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -59,9 +62,9 @@ function renderModal(id){
     </div>
   </div>
 `
-document.querySelector('.modolu').innerHTML = strHtml
+    document.querySelector('.modolu').innerHTML = strHtml
 
 }
- 
+
 
 renderPortfilo();

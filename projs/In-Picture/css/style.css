@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+.container {
+    justify-content: center; 
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+button{
+    border: 1px solid salmon;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}

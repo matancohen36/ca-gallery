@@ -3,7 +3,7 @@ var gProjs = [{
     name: "MineSweeper",
     title: "MineSweeper",
     desc: "My Version of the Classic game with all the Features",
-    url: "projs/Minesweeper",
+    url: "./projs/MineSweeper/index.html",
     date: "Sep 2020",
     labels:["Board Game","Puzzle"]
 },
@@ -12,7 +12,7 @@ var gProjs = [{
     name: "In-Picture",
     title: "In-Picture",
     desc: "My Version of the Classic game with all the Features",
-    url: "projs/In-Picture",
+    url: "./projs/In-Picture/index.html",
     date: "Sep 2020",
     labels:["Puzzle"]
 },
@@ -21,7 +21,7 @@ var gProjs = [{
     name: "Touch-Nums",
     title: "Touch-Nums",
     desc: "My Version of the Classic game with all the Features",
-    url: "projs/Touch-Nums",
+    url: "./projs/Touch-Nums/index.html",
     date: "Sep 2020",
     labels:["Board Game","Puzzle"]
 },
@@ -30,7 +30,7 @@ var gProjs = [{
     name: "Pacman",
     title: "Pacman",
     desc: "My Version of the Classic game with all the Features",
-    url: "projs/Pacman",
+    url: "./projs/Pacman/index.html",
     date: "Sep 2020",
     labels:["Board Game"]
 },
@@ -39,7 +39,7 @@ var gProjs = [{
     name: "Chess",
     title: "Chess",
     desc: "My Version of the Classic game with all the Features",
-    url: "projs/Chess",
+    url: "./projs/Chess/index.html",
     date: "Sep 2020",
     labels:["Board Game","Matrix"]
 },
@@ -48,7 +48,7 @@ var gProjs = [{
     name: "Todo",
     title: "Todo",
     desc: "My Version of the Todo List with all the Features",
-    url: "projs/Todo",
+    url: "./projs/Todo/index.html",
     date: "Sep 2020",
     labels:["Todo List"]
 },

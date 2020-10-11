@@ -1,0 +1,32 @@
+<head>
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()">
+    <div class="container">
+    <div class="title">
+        <h1>Welcome To Touch Nums</h1>
+    </div>
+            <div class="game-info">
+            <p>Next Number: <span class="next-num">Start Game..</span></p>
+            <p>Time Left: <span class="timer"></span></p>
+        </div>
+        <button onclick="setDiffLvl(4)">Easy Lvl!</button>
+        <button onclick="setDiffLvl(5)">Hard Lvl!</button>
+        <button onclick="setDiffLvl(6)">Extreme Lvl!</button>
+        <div class="timer">
+            <h4></h4>
+        </div>
+        <table border="1" cellpadding="10">
+            <tbody class="play-ground">
+                
+            </tbody>
+        </table>
+        <button onclick="init()">Restart Game</button>
+    </div>
+        <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
