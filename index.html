@@ -26,31 +26,16 @@
 
 </head>
 
-<body id="page-top">
-  <div class="offcanvas-btn" onClick="openCanvas()">
+<body onload="initPage()" id="page-top">
+  <div class="offcanvas-btn" onClick="openCanvas() ,renderCanvas()">
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
   <aside class="offcanvas-aside">
 
     <!-- Contact -->
     <section id="contact">
-      <h4>Contact Me</h4>
-      <div class="container my-md-5 text-white">
-        <h1 class="my-1 my-sm-5">Leave a Message</h1>
-        <form class="py-3">
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Full Name</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-              <label for="exampleFormControlInput1">Phone Number</label>
-              <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Your Phone Number">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
-              <label for="exampleFormControlTextarea1">Leave us a Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button class="btn btn-success">Send</button>
-          </form>
-    </div>
+      
+      
     </section>
 
   </aside>
@@ -110,7 +95,8 @@
             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Functionallty</h4>
-          <p class="text-muted">we have been practicing JS for long time so we learnd how to write to most efficiently code</p>
+          <p class="text-muted">we have been practicing JS for long time so we learnd how to write to most efficiently
+            code</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -126,7 +112,8 @@
             <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Our Webs Using The best Security System (Multi-factor authentication with at least Two-factor authentication)</p>
+          <p class="text-muted">Our Webs Using The best Security System (Multi-factor authentication with at least
+            Two-factor authentication)</p>
         </div>
       </div>
     </div>
@@ -142,10 +129,10 @@
         </div>
       </div>
       <div class="row port-row">
-        
+
       </div>
   </section>
-  
+
 
   <!-- Me -->
   <section class="bg-light" id="me" style="padding: 0px;">

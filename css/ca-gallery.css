@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* background-image: url("../img/bgc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; */
 }
 p {
     line-height: 1.75;
@@ -69,7 +72,7 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: rgb(2, 248, 215);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -84,7 +87,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(2, 248, 215);
     width: 80vw;
     right: -80vw;
     z-index: 10;

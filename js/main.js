@@ -66,5 +66,6 @@ function renderModal(id) {
 
 }
 
-
-renderPortfilo();
+function initPage(){
+    renderPortfilo();
+}
